@@ -1,0 +1,12 @@
+# Data folder for qgis2web exported GeoJSON files
+
+This folder will contain all the layer data files exported from QGIS:
+- Western_Cape_29.js
+- District_municipalities_28.js
+- Local_municipalities_27.js
+- Wards_2020_clip_26.js
+- Geology_2.js
+- BiomesLowRebelo1996_3.js
+- And all other layer files...
+
+You can add your data files here later.
