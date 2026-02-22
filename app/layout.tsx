@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Western Cape Tourism Explore',
+  description: 'Professional interactive mapping platform for exploring Western Cape tourism destinations, geographic data, and regional insights',
   generator: 'v0.app',
   icons: {
     icon: [

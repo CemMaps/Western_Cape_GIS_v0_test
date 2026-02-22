@@ -13,7 +13,7 @@ export default function Page() {
         padding: 0,
         overflow: "hidden",
       }}
-      title="Western Cape Map Explorer"
+      title="Western Cape Tourism Explore"
     />
   );
 }
