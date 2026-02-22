@@ -1,5 +1,5 @@
 $port = 8765
-$root = "c:\Users\cemgu\OneDrive - University College London\Documents\temp_project\Western_Cape_GIS_GitHub"
+$root = "c:\Users\cemgu\OneDrive - University College London\Documents\temp_project\v0_test\public"
 $url  = "http://localhost:$port/"
 
 $listener = New-Object System.Net.HttpListener
@@ -24,7 +24,7 @@ try {
     $req  = $ctx.Request
     $resp = $ctx.Response
     $localPath = $req.Url.LocalPath
-    if ($localPath -eq "/") { $localPath = "/index.html" }
+    if ($localPath -eq "/") { $localPath = "/map.html" }
     $safePath = $localPath.Replace("/", "\").TrimStart("\")
     $file = Join-Path $root $safePath
     if (Test-Path $file -PathType Leaf) {
